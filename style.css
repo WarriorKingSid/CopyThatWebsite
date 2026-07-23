@@ -1,0 +1,42 @@
+body {
+    margin 0;
+    font-family: Helvetica;
+}
+
+.top-nav {
+    display: flex;
+    gap: 20px;
+    background-color: #272D33;
+    color: white;
+    padding: 8px 20px;
+    font-size: 14px;
+}
+
+.main-nav {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    background-color: rgb(255, 252, 252);
+    color: black;
+    padding: 15px 20px;
+    border-bottom: 1px solid lightgray;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.top-nav div,
+.main-nav div {
+    cursor: pointer;
+}
+
+img.logo {
+    width: 50px;
+}
+
+img.meal{
+    width: 700px;
+    padding: 100px;
+    border-radius: 150px;
+}
+
+
